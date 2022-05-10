@@ -205,3 +205,4 @@ resource "null_resource" "configure-cat-app" {
       host     = azurerm_public_ip.catapp-pip.fqdn
     }
   }
+}  
